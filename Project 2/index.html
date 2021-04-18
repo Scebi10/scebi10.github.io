@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+   <!--
+   Front end web development
+   Project 2
+   name : SJ Mkhize
+   Filename:         h01.htm
+   -->
+
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+
+      <title>Personal Website</title>
+      <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+ 
+        <header>
+            
+            <div class="main-nav">
+                <div class="name">
+                    <h2>Scebi Mkhize</h2>
+                </div>
+                <div class="menu">
+                     <a href="index.html">Home</a>
+                     <a href="experience.html">Portfolio</a>
+                    <a href="">Contact</a>
+                </div>
+            </div>
+            <div class="headers">
+                
+                <div class="one">
+                    <p>
+                         Hi! im a front-end developer who loves responsive design and css. i recently finished learning front-end web development at Treehouse and am excited to put ll my skills to use! 
+                    </p>
+                    
+                </div>
+                <div class = "two">
+                    <img src="images/responsive-layout-profile.png" alt="Profile picture">  
+                 </div>
+            </div>
+
+          
+        </header>
+
+        <div class="portfolio">
+            <h3 style="text-align: center; padding: 5px; width: 100%;">
+                Portfolio
+            </h3>
+            <div class="card">
+                <img src="images/portfolio-1.png" alt="Marketing" style="width: 100%;">
+                <div class="description">
+                    <h3>
+                        Markerting Page
+                    </h3>
+                    <p>
+                        This project shows the front page of a marketing Website meant for a specific business im interested in.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio-2.png" alt="Search page" style="width: 100%;">
+                <div class="description">
+                    <h3>
+                        Search Page
+                    </h3>
+                    <p>
+                        This project ssearched through a specific database to find information that the user is trying to look up.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio-3.png" alt="Travel App" style="width: 100%;">
+                <div class="description">
+                    <h3>
+                        Travel App
+                    </h3>
+                    <p>
+                        This project compares the travel times based on different transportation methods and tells you the best one.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio-4.png" alt="Map of Favorite Spots" style="width: 100%;">
+                <div class="description">
+                    <h3>
+                        Map of Favorite Spots
+                    </h3>
+                    <p>
+                        This project uses mapping apis to plot points for my favorite spots in the city for do-it-yourself walking tour.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio-5.png" alt="Photo Gallery" style="width: 100%;">
+                <div class="description">
+                    <h3>
+                        Photo Gallery
+                    </h3>
+                    <p>
+                        This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio-6.png" alt="Calculator" style="width: 100%;">
+                <div class="description">
+                    <h3>
+                        Calculator
+                    </h3>
+                    <p>
+                        Someone can enter in the numbers they want, and press the big blue button and get the result.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="contact">
+            <h3 >
+                Contact
+            </h3>
+            <p>
+                If you are interested in chatting or want more information about what i have been working on , i would love to hear from you!
+            </p>
+            <p>
+                Phone +1(111)555-1234
+            </p>
+            <p>
+                email@yoursite.com
+            </p>
+        </div>
+
+       <footer>
+        <hr>
+        <div class="footer-nav">
+            <div class="footer-name">
+                <h4>Scebi Mkhize</h4>
+            </div>
+            <div class="footer-menu">
+                 <a href="index.html">Home</a>
+                 <a href="experience.html">Portfolio</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="back-to-top">
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+           </div>
+        </div>
+        </footer>
+
+        <script>
+            mybutton = document.getElementById("myBtn");
+            function topFunction() {
+            document.body.scrollTop = 0; 
+            document.documentElement.scrollTop = 0;
+            }
+        </script>
+  </body>
+  </html>

@@ -1,0 +1,55 @@
+/*
+   Calculator Forms Style Sheet
+   Author: Scebi
+   Date:   20201/04/04
+
+*/
+
+/* Form Layout Styles */
+#calculator {
+    background-color: white;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    
+
+}
+body{
+    margin: auto;
+}
+#textbox, #input {
+    background-color: lightsteelblue;
+    width: 50%;
+    height: 70%;
+
+}
+
+#calculator {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column;
+    margin: 7px 0px;
+    }
+#value1, #value2{
+    width: 100px;
+}
+ 
+
+   
+/* Legend Styles */
+legend {
+    background-color: rgb(42, 15, 139);
+    color: white;
+    padding: 5px;
+    }
+
+    /* buttons styles */
+    button{
+        width:  70px;
+    }
+    #clear{
+        background-color: red;
+        color: white;
+    }
